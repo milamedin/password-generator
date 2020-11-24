@@ -11,11 +11,11 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 lista = []
 for a in range(0, nr_letters):
-  lista+=letters[a]
+  lista+=random.choise(letters)
 for a in range(0, nr_symbols):
-  lista+=symbols[a]
+  lista+=random.choise(symbols)
 for a in range(0, nr_numbers):
-  lista+=numbers[a]
+  lista+=random.choise(numbers)
 
 random.shuffle(lista)
 
